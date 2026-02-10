@@ -9,11 +9,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.1.2",
     "axios": "^1.13.5",
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "express-validator": "^7.0.1"
   },
   "devDependencies": {
