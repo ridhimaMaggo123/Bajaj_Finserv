@@ -4,7 +4,7 @@ const { body, validationResult } = require('express-validator');
 const axios = require('axios');
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3002;
 
 app.use(cors());
 app.use(express.json());
