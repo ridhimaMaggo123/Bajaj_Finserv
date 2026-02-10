@@ -1,11 +1,10 @@
-require("dotenv").config({ path: ".env" });
 const express = require('express');
 const cors = require('cors');
 const { body, validationResult } = require('express-validator');
 const axios = require('axios');
 
 const app = express();
-const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3002;
+const PORT = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
